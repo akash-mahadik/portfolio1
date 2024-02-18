@@ -321,14 +321,17 @@ transform: translate(-50%, -50%);
 .pm input{
     padding: .3rem;
     color: whitesmoke;
-    background-color: #0e152c;
+    /* background-color: #0e152c; */
     text-transform: uppercase;  
-    box-shadow: 0px 0px 3px rgb(116, 116, 245);
-    
+    background: transparent;
+    /* box-shadow: 0px 0px 3px rgb(116, 116, 245); */
+    transition-duration: .5s;
+    font-size: 1rem;
 }
 .pm input:hover{
     box-shadow: 0px 0px 5px whitesmoke;
-    font-size: 17px;
+    background-color:#3877ff ;
+    
 }
 /* project section ends here */
 #contact{
